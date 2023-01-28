@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,500;1,700&family=Lobster&display=swap');
+
+/* Classnames */
+
+.col-12 {
+    font-family: 'Josefin Sans';
+    color: #B3A20B
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+
+}
+
+/* Termina Classnames */
+
+/* IDs */
+
+#fullName {
+    font-family: 'Lobster', cursive;
+    color: #B3A20B;
+    align-items: center;
+    margin: 0;
+}
+
+#rightText {
+    text-align: start;
+}
+
+#leftText {
+    text-align: end;
+}
+
+#picContainer {
+    justify-content: center;
+}
+
+
+/* Termina IDs */
+
+/* Icono HOME y su animacion */
+.homeIcon {
+    width: 25px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.homeIcon:hover,
+.homeIcon:focus,
+.homeIcon:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Termina Icono HOME y su animacion */
+
+
+/* Media Querys */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #footer {
+        position: relative;
+        top: 6vh;
+    }
+
+    #fullName {
+        font-size: 45px;
+        font-weight: lighter;
+    }
+
+    #profPic {
+        width: 350px;
+    }
+
+    #rightText {
+        text-align: center;
+    }
+
+    #leftText {
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    #footer {
+        position: relative;
+        top: 6vh;
+    }
+
+    #fullName {
+        font-size: 45px;
+    }
+
+    #profPic {
+        width: 450px;
+    }
+
+    #rightText {
+        text-align: center;
+    }
+
+    #leftText {
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    #footer {
+        position: relative;
+        top: 6vh;
+    }
+
+    #fullName {
+        font-size: 45px;
+    }
+
+    #profPic {
+        width: 500px;
+    }
+
+    .col-12 {
+        font-size: 25px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    #footer {
+        position: relative;
+        top: 6vh;
+    }
+
+    #fullName {
+        font-size: 45px;
+
+    }
+
+    #profPic {
+        width: auto;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+    #footer {
+        position: relative;
+        top: 10vh;
+    }
+
+    #fullName {
+        font-size: 45px;
+    }
+
+    #profPic {
+        width: auto;
+    }
+
+
+}
+
+/* Termina Media Querys */
