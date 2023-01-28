@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import linkedinIcon from "../../images/icons/linkedin.png"
 import githubIcon from "../../images/icons/github-sign.png"
 import instagramIcon from "../../images/icons/instagram.png"
-import portfolioIcon from "../../images/icons/portfolio.png"
+// import portfolioIcon from "../../images/icons/portfolio.png"
 import infoIcon from "../../images/icons/id-card.png"
 
 
