@@ -4,7 +4,7 @@
 
 .col-12 {
     font-family: 'Josefin Sans';
-    color: #B3A20B
+    color: #256D85
 }
 
 .footerContent {
@@ -23,7 +23,7 @@
 
 #fullName {
     font-family: 'Lobster', cursive;
-    color: #B3A20B;
+    color: #256D85;
     align-items: center;
     margin: 0;
 }
@@ -41,6 +41,7 @@
 }
 
 
+
 /* Termina IDs */
 
 /* Icono HOME y su animacion */
@@ -53,6 +54,7 @@
     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
+    filter: invert(34%) sepia(65%) saturate(497%) hue-rotate(149deg) brightness(91%) contrast(87%);
 }
 
 .homeIcon:hover,
@@ -82,7 +84,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
-    #footer {
+    .footer {
         position: relative;
         top: 6vh;
     }
@@ -102,13 +104,14 @@
 
     #leftText {
         text-align: center;
+        margin-top: 20px;
     }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
-    #footer {
+    .footer {
         position: relative;
         top: 6vh;
     }
@@ -127,13 +130,14 @@
 
     #leftText {
         text-align: center;
+        margin-top: 20px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
 
-    #footer {
+    .footer {
         position: relative;
         top: 6vh;
     }
@@ -149,12 +153,22 @@
     .col-12 {
         font-size: 25px;
     }
+
+
+    #rightText {
+        text-align: center;
+    }
+
+    #leftText {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
 
-    #footer {
+    .footer {
         position: relative;
         top: 6vh;
     }
@@ -173,9 +187,9 @@
 @media (min-width: 1200px) {
 
 
-    #footer {
+    .footer {
         position: relative;
-        top: 10vh;
+        top: 12vh;
     }
 
     #fullName {
@@ -190,3 +204,26 @@
 }
 
 /* Termina Media Querys */
+
+
+/* Theme */
+
+@media (prefers-color-scheme: dark) {
+
+    .col-12 {
+        font-family: 'Josefin Sans';
+        color: #47B5FF;
+    }
+
+    .homeIcon {
+        filter: invert(70%) sepia(19%) saturate(6696%) hue-rotate(177deg) brightness(100%) contrast(104%);
+    }
+
+    #fullName {
+        color: #47B5FF;
+    }
+
+}
+
+
+/* Termina Theme */

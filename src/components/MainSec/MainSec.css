@@ -43,10 +43,13 @@
 
 
 
+
+
 /* Icono y su Animacion */
 .icon {
     margin-top: 8px;
     margin-bottom: 8px;
+    filter: invert(62%) sepia(53%) saturate(1736%) hue-rotate(177deg) brightness(101%) contrast(101%);
 }
 
 .icon:hover,
