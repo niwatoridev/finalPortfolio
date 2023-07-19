@@ -40,6 +40,12 @@
     justify-content: center;
 }
 
+#profPic {
+    border-radius: 50%;
+    border: solid 4px #256D85;
+    padding: 0;
+}
+
 
 
 /* Termina IDs */
@@ -96,6 +102,11 @@
 
     #profPic {
         width: 350px;
+        padding: 0;
+    }
+
+    #picContainer {
+        margin: 10px;
     }
 
     #rightText {
@@ -124,6 +135,10 @@
         width: 450px;
     }
 
+    #picContainer {
+        margin: 15px;
+    }
+
     #rightText {
         text-align: center;
     }
@@ -148,6 +163,10 @@
 
     #profPic {
         width: 500px;
+    }
+
+    #picContainer {
+        margin: 15px;
     }
 
     .col-12 {
@@ -181,6 +200,10 @@
     #profPic {
         width: auto;
     }
+
+    #picContainer {
+        margin: 10px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -198,6 +221,10 @@
 
     #profPic {
         width: auto;
+    }
+
+    #picContainer {
+        margin: 20px;
     }
 
 
@@ -221,6 +248,10 @@
 
     #fullName {
         color: #47B5FF;
+    }
+
+    #profPic {
+        border: solid 2px #47B5FF;
     }
 
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./InfoCard.css"
-import profPic from "../../images/Circular.png"
+import profPic from "../../images/profile.JPEG"
 import homeIcon from "../../images/icons/home.png"
 import { Link } from "react-router-dom";
 
