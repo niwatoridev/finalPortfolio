@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,500;1,700&family=Lobster&display=swap');
+
+
+.frameExperience {
+    border: solid black 2px;
+    width: 300px;
+    height: 550px;
+    margin: 45px;
+    overflow: scroll;
+}
+
+.frameExperience h2 {
+    font-family: 'Josefin Sans';
+    color: #47B5FF;
+    text-align: center;
+}
+
+
+
+.frameContent {
+
+    opacity: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: solid green 2px */
+}
+
+
+
+.experienceEntry {
+    /* border: solid red 2px; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+.experienceEntryLogo {
+    /* border: solid blue 2px; */
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experienceEntryData {
+    /* border: solid aqua 2px; */
+    width: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.experienceEntryData h3 {
+    font-family: 'Josefin Sans';
+    font-weight: bold;
+    color: #47B5FF;
+    font-size: 17px;
+    margin: 0;
+}
+
+.experienceEntryData a {
+    font-family: 'Josefin Sans';
+    color: #47B5FF;
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.experienceEntryData i {
+    color: #47B5FF;
+    font-size: px;
+    margin: 0;
+}
+
+.experienceEntryData p {
+    font-family: 'Josefin Sans';
+    color: #268acc;
+    font-size: 11px;
+    margin: 0;
+}
+.experienceEntryData span {
+    font-family: 'Josefin Sans';
+    color: #268acc;
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+}
+
+.experienceEntry img {
+    width: 80%;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center
+}
+
+#ggaLocation {
+    font-family: 'Josefin Sans';
+    color: #268acc;
+    font-size: 8px;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+
+    #bigPapa {
+        height: 100vh;
+    }
+    
+    #portfolio {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+}

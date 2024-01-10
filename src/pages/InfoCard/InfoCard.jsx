@@ -12,7 +12,7 @@ const InfoCard = () => {
                 <div class="col-12 col-sm-12 col-md-12 col-lg-4 align-self-center col-xl">
                     <div id="leftText" class="row text-right">
                         <h2 class="col-12">Front-end Passionated</h2>
-                        <h2 class="col-12">Digital Native</h2>
+                        <h2 class="col-12">Two Years XP</h2>
                         <h2 class="col-12">He/Him</h2>
                     </div>
                 </div>

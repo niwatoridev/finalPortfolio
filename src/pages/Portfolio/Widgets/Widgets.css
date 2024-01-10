@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,500;1,700&family=Lobster&display=swap');
+
+
+.frameContent {
+    opacity: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.frameContent h2 {
+    font-family: 'Josefin Sans';
+    color: #47B5FF;
+    text-align: center;
+}
+
+.widgetsList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid green 2px;
+}
+
+.widgetsEntry {
+    border: solid red 2px;
+    height: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+@media screen and (max-width: 960px) {
+
+
+}

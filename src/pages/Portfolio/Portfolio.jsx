@@ -2,13 +2,26 @@ import React from 'react';
 import "./Portfolio.css"
 import homeIcon from "../../images/icons/home.png"
 import { Link } from "react-router-dom";
+import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
+import Widgets from './Widgets/Widgets';
+
 
 const Portfolio = () => {
   return (
-    <div id="bigPapa" class="container">
-      {/* Footer */}
-
-      <div id="footer" class="row">
+    <div id="mainDiv">
+      <div id='portfolio'>
+          <div className='frameExperience'>
+            <Experience></Experience>
+          </div>
+          <div className='frame'>
+              <Projects></Projects>
+          </div>
+          <div className='frame'>
+              <Widgets></Widgets>
+          </div>
+      </div>
+      <div id="footer">
         <div className="footerContent">
           <p id="fullName">Esteban Munoz</p>
         </div>
@@ -18,9 +31,6 @@ const Portfolio = () => {
           </Link>
         </div>
       </div>
-
-      {/* End Footer */}
-
     </div>
   );
 };

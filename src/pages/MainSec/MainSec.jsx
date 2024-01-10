@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import linkedinIcon from "../../images/icons/linkedin.png"
 import githubIcon from "../../images/icons/github-sign.png"
 import instagramIcon from "../../images/icons/instagram.png"
-// import portfolioIcon from "../../images/icons/portfolio.png"
+import portfolioIcon from "../../images/icons/portfolio.png"
 import infoIcon from "../../images/icons/id-card.png"
 
 
@@ -25,9 +25,9 @@ const MainSec = () => {
                         <div class="col-12 col-sm-12 col-md col-lg col-xl">
                             <Link to="/info"><img src={infoIcon} alt="info-icon" className="icon" /></Link>
                         </div>
-                        {/* <div class="col-12 col-sm-12 col-md col-lg col-xl">
+                        <div class="col-12 col-sm-12 col-md col-lg col-xl">
                             <Link to="/portfolio"><img src={portfolioIcon} alt="portfolio-icon" className="icon" /></Link>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>

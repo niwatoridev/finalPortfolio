@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,400;1,500;1,700&family=Lobster&display=swap');
+
+
 .footerContent {
     display: flex;
     flex-direction: column;
@@ -7,53 +10,71 @@
     justify-items: center;
 }
 
-@media (max-width: 575.98px) {
+.footer {
+    position: relative;
+    top: 10vh;
+}
 
+
+.frameExperience {
+    /* border: solid black 2px; */
+    width: 300px;
+    height: 550px;
+    margin: 45px;
+    overflow: scroll;
+}
+
+.frameExperience h2 {
+    font-family: 'Josefin Sans';
+    color: #47B5FF;
+    text-align: center;
+}
+
+
+.frame {
+    border: solid black 2px;
+    width: 500px;
+    height: 550px;
+    margin: 15px;
+    overflow: scroll;
+}
+
+.frame h2 {
+    font-family: 'Josefin Sans';
+    color: #47B5FF;
+    text-align: center;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    align-items: center;
+    z-index: 999;
+}
+
+
+@media screen and (max-width: 960px) {
+
+    #mainDiv {
+        height: 100vh;
+    }
+    
+    #portfolio {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .frame {
+        border: solid black 2px;
+        width: 80vw;
+        margin: 15px;
+    }
+    
     .footer {
         position: relative;
         top: 6vh;
     }
 
 }
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-
-    .footer {
-        position: relative;
-        top: 6vh;
-    }
-
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-    .footer {
-        position: relative;
-        top: 6vh;
-    }
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-    .footer {
-        position: relative;
-        top: 6vh;
-    }
-
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-    .footer {
-        position: relative;
-        top: 10vh;
-    }
-
-}
-
-/* Termina Media Querys */
