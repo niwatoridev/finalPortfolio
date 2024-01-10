@@ -23,7 +23,7 @@ const Portfolio = () => {
       </div>
       <div id="footer">
         <div className="footerContent">
-          <p id="fullName">Esteban Munoz</p>
+          <p id="fullName">Section Under Construction! <span><i class="fa-solid fa-person-digging"></i></span></p>
         </div>
         <div className="footerContent">
           <Link to="/">
