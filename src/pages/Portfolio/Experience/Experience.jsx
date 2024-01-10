@@ -24,7 +24,7 @@ function obtenerDistancia(dateBegan) {
     let yearsInInteger = yearsArr[0]
     let remainingMonthsInString = '.' + yearsArr[1]
     let remainingMonthsInNumber = (parseInt(parseFloat(remainingMonthsInString)*12))
-    if (yearsInInteger == 1 ) {
+    if (yearsInInteger === 1 ) {
     let multipleYearsString = yearsInInteger + ' yr ' + remainingMonthsInNumber + ' mos'
     return multipleYearsString
   } else {
@@ -41,41 +41,41 @@ const Experience = () => {
             <div className="experienceList">
               <div className='experienceEntry'>
                 <div className='experienceEntryLogo'>
-                  <a className='logoContainer' target='_blank' href="https://www.sngular.com/"><img className='experienceLogo' src={sngularLogo} alt="Sngular Logo"/></a>
+                  <a className='logoContainer' rel="noreferrer" target='_blank' href="https://www.sngular.com/"><img className='experienceLogo' src={sngularLogo} alt="Sngular Logo"/></a>
                 </div>
                 <div className='experienceEntryData'>
                     <h3>Front End Developer</h3>
-                    <p><a target='_blank' href="https://www.sngular.com/">Sngular <i class="fa-solid fa-link"></i></a><span> · Mexico (Hybrid)</span></p>
+                    <p><a target='_blank' rel="noreferrer" href="https://www.sngular.com/">Sngular <i class="fa-solid fa-link"></i></a><span> · Mexico (Hybrid)</span></p>
                     <p>Jun 2022 - Present · {obtenerDistancia(dateSngular)}</p>
                 </div>
               </div>
               <div className='experienceEntry'>
                 <div className='experienceEntryLogo'>
-                  <a className='logoContainer' target='_blank' href="https://www.fiverr.com/"><img className='experienceLogo' src={fiverrLogo} alt="Fiverr Logo"/></a>
+                  <a className='logoContainer' target='_blank' rel="noreferrer" href="https://www.fiverr.com/"><img className='experienceLogo' src={fiverrLogo} alt="Fiverr Logo"/></a>
                 </div>
                 <div className='experienceEntryData'>
                     <h3>Front End Developer</h3>
-                    <p><a target='_blank' href="https://www.fiverr.com/">Fiverr <i class="fa-solid fa-link"></i></a><span> · Freelance (Remote)</span></p>
+                    <p><a target='_blank' rel="noreferrer" href="https://www.fiverr.com/">Fiverr <i class="fa-solid fa-link"></i></a><span> · Freelance (Remote)</span></p>
                     <p>Apr 2022 - Present · {obtenerDistancia(dateFiverr)}</p>
                 </div>
               </div>
               <div className='experienceEntry'>
                 <div className='experienceEntryLogo'>
-                  <a className='logoContainer' target='_blank' href="https://www.facebook.com/vibesgg"><img className='experienceLogo' src={vibesLogo} alt="VibesGG Logo"/></a>
+                  <a className='logoContainer' target='_blank' rel="noreferrer" href="https://www.facebook.com/vibesgg"><img className='experienceLogo' src={vibesLogo} alt="VibesGG Logo"/></a>
                 </div>
                 <div className='experienceEntryData'>
                     <h3>CEO & Main Dev</h3>
-                    <p><a target='_blank' href="https://www.facebook.com/vibesgg">VibesGG <i class="fa-solid fa-link"></i></a><span> · Mexico</span></p>
+                    <p><a target='_blank' rel="noreferrer" href="https://www.facebook.com/vibesgg">VibesGG <i class="fa-solid fa-link"></i></a><span> · Mexico</span></p>
                     <p>Jun 2020 - Present · {obtenerDistancia(dateVibes)}</p>
                 </div>
               </div>
               <div className='experienceEntry'>
                 <div className='experienceEntryLogo'>
-                  <a className='logoContainer' target='_blank' href="https://ggasolutions.com/"><img className='experienceLogo' src={ggaLogo} alt="gga Logo"/></a>
+                  <a className='logoContainer' target='_blank' rel="noreferrer" href="https://ggasolutions.com/"><img className='experienceLogo' src={ggaLogo} alt="gga Logo"/></a>
                 </div>
                 <div className='experienceEntryData'>
                     <h3>Team Lead</h3>
-                    <p><a target='_blank' href="https://ggasolutions.com/">GGA Solutions <i class="fa-solid fa-link"></i></a><span id='ggaLocation'> · Tijuana (Remote)</span></p>
+                    <p><a target='_blank' rel="noreferrer" href="https://ggasolutions.com/">GGA Solutions <i class="fa-solid fa-link"></i></a><span id='ggaLocation'> · Tijuana (Remote)</span></p>
                     <p>Apr 2021 - Mar 2022 · 1 yr 5 mos</p>
                 </div>
               </div>
