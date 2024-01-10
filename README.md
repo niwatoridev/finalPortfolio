@@ -9,12 +9,12 @@ Features:
 - Dynamic duration (shown in yrs/mos) in the experience section, inside portfolio page.
 
 Made using:
--HTML
--CSS
--Javascript
--React
--Bootstrap
--Date-fns
+- HTML
+- CSS
+- Javascript
+- React
+- Bootstrap
+- Date-fns
 
 
 Feel free to use anything within this repository, except personal information.
